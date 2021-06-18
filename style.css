@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+video{
+    border: 1px solid #555;
+    margin-bottom: 10px;
+}
+button{
+    padding:10px 15px;
+    background: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(6, 182, 6);
+}
+
+.timer{
+    margin-bottom: 10px;
+}
+button.disabled{
+    background-color:rgb(163, 163, 163);
+    pointer-events: none;
+    cursor:none;
+}
